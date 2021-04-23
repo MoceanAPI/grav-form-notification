@@ -37,7 +37,7 @@ api_key: your-moceanapi-key
 api_secret: your-moceanapi-secret
 enable_notification: true
 from: 'From'
-to: '0123456789'
+to: '60123456789'
 message: 'You have received new submission on your {{FORM_NAME}} form.'
 enable_auto_response: true
 phone_field: 'phone'
