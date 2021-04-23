@@ -1,0 +1,77 @@
+name: MoceanAPI Form SMS Notification
+version: 1.0.0
+description: SMS notification for Grav form whenever there is submission on your Grav form.
+icon: plug
+author:
+  name: MoceanAPI
+  email: support@moceanapi.com
+homepage: https://github.com/moceanapi/grav-form-notification
+demo: https://moceanapi.com
+keywords: grav,plugin,notification,sms,moceanapi,form
+bugs: https://github.com/moceanapi/grav-form-notification/issues
+docs: https://github.com/moceanapi/grav-form-notification/blob/develop/README.md
+license: MIT
+dependencies:
+  - form
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    api_key:
+      type: text
+      label: API Key
+      help: Your MoceanAPI Key.
+    api_secret:
+      type: text
+      label: API Secret
+      help: Your MoceanAPI Secret.
+    enable_notification:
+      type: toggle
+      label: Enable Notification
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    from:
+      type: text
+      label: From
+      help: The name or phone where the SMS notification is coming from.
+    to:
+      type: text
+      label: To
+      help: The phone where the SMS notification will be sent to.
+    message:
+      type: text
+      label: Notification Message
+      help: The notification message you want to send.
+    enable_auto_response:
+      type: toggle
+      label: Enable Auto-response
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    phone_field:
+        type: text
+        label: Your phone form field.
+        help: The name of your phone form field.
+    auto_response_msg:
+        type: text
+        label: Your auto-response msg.
+        help: This is the message that will be sent to the form submitter.
