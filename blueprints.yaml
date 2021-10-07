@@ -1,5 +1,5 @@
 name: MoceanAPI Form SMS Notification
-version: 1.0.0
+version: 1.0.1
 description: SMS notification for Grav form whenever there is submission on your Grav form.
 icon: plug
 author:
