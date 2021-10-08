@@ -1,8 +1,0 @@
-{
-    "name": "mocean/grav-form-notification",
-    "description": "A simple Grav plugin that allows you to send SMS notification every time someone submits your Grav form. The MoceanApi Form Notification Plugin is for Grav CMS.A simple Grav plugin that allows you to send SMS notification every time someone submits your Grav form. The MoceanApi Form Notification Plugin is for Grav CMS.",
-    "type": "grav-plugin",
-    "require": {
-        "guzzlehttp/guzzle": "^6.3"
-    }
-}
