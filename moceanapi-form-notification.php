@@ -2,6 +2,8 @@
 
 namespace Grav\Plugin;
 
+require __DIR__ . '/vendor/autoload.php';
+
 use Grav\Common\Config\Config;
 use Grav\Common\Grav;
 use Grav\Common\Plugin;
