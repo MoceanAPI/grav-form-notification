@@ -14,7 +14,7 @@ license: MIT
 dependencies:
   - form
   - { name: guzzlehttp/guzzle, version: '>=6.3' }
-
+  
 form:
   validation: strict
   fields:
